@@ -1,0 +1,30 @@
+/* Formulario */
+.contact-form .form-control {
+    border: 2px solid #998CEB; 
+    background-color: #FBF46D; 
+    color: #023047; 
+}
+
+.contact-form .form-control:focus {
+    border-color: #77E4D4; 
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #998CEB; 
+    color: white; 
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #77E4D4; 
+}
+
+/* General Adjustments */
+section.contact-us {
+    margin: 40px auto;
+    padding: 20px;
+}

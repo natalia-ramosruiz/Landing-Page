@@ -1,0 +1,54 @@
+#header
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #B4FE98; }
+
+.nav > li {
+    position: relative;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #023047;
+    text-decoration: none;
+}
+
+/* Submenú desplegable */
+.nav li ul {
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; /* Alineado a la izquierda */
+    background-color: #77E4D4; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #FBF46D; 
+}
+
+.nav li:hover ul {
+    display: block; /* Mostrar al pasar el cursor */
+}
+
+.nav li ul li {
+    margin: 0;
+}
+
+.nav li ul li a {
+    display: block;
+    padding: 8px 12px; 
+    color: #023047;
+    text-decoration: none;
+    text-align: left; 
+    white-space: nowrap; /* Evita que las palabras se partan en varias líneas */
+}
+
+.nav li ul li a:hover {
+    background-color: #FBF46D; 
+}
+
+  
